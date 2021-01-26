@@ -1,0 +1,82 @@
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 50;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left {
+  left: 0;
+  background-color: black;
+}
+.right {
+  right: 0;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.menu-link {
+  color: white;
+  margin: 0px 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 1px !important;
+  text-align: center;
+}
+
+.menu-link:hover {
+  background: #f39c12;
+}
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.btn{
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+}
+
+#table-emplist {
+  font-family: Arial;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table-emplist td,
+table th {
+  border: 0px solid #ddd;
+  padding: 8px;
+  border-bottom-width: 1px;
+}
+
+
+#table-emplist th {
+  text-align: left;
+
+}
+.empDelete{
+  cursor: pointer;
+}
+.empDelete:hover {
+  background: red;
+}
