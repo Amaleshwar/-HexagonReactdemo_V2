@@ -35,6 +35,7 @@ export default class EmpList extends Component {
     axios.delete(`http://localhost:8000/empdelete/${id}`).then((res)=>{
         this.getemp()
         console.log("deleted");
+        this.setState({empdetails:[]})
   })
   }
   sendempdetails(id) {
